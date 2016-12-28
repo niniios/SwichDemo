@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		897AA3F21C8F12AF00365DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 897AA3F11C8F12AF00365DFE /* main.m */; };
+		897AA3F51C8F12AF00365DFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 897AA3F41C8F12AF00365DFE /* AppDelegate.m */; };
+		897AA3F81C8F12AF00365DFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897AA3F71C8F12AF00365DFE /* ViewController.m */; };
+		897AA3FB1C8F12AF00365DFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897AA3F91C8F12AF00365DFE /* Main.storyboard */; };
+		897AA3FD1C8F12AF00365DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897AA3FC1C8F12AF00365DFE /* Assets.xcassets */; };
+		897AA4001C8F12AF00365DFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897AA3FE1C8F12AF00365DFE /* LaunchScreen.storyboard */; };
+		897AA40B1C8F12AF00365DFE /* SwichDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 897AA40A1C8F12AF00365DFE /* SwichDemoTests.m */; };
+		897AA4161C8F12AF00365DFE /* SwichDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 897AA4151C8F12AF00365DFE /* SwichDemoUITests.m */; };
+		89E6A3061CA810E700393A56 /* popUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89E6A3051CA810E700393A56 /* popUp.xib */; };
+		89E6A3091CA813CA00393A56 /* 02-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E6A3071CA813CA00393A56 /* 02-02.png */; };
+		89E6A30A1CA813CA00393A56 /* 02-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E6A3081CA813CA00393A56 /* 02-03.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		897AA4071C8F12AF00365DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 897AA3E51C8F12AF00365DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 897AA3EC1C8F12AF00365DFE;
+			remoteInfo = SwichDemo;
+		};
+		897AA4121C8F12AF00365DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 897AA3E51C8F12AF00365DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 897AA3EC1C8F12AF00365DFE;
+			remoteInfo = SwichDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		897AA3ED1C8F12AF00365DFE /* SwichDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwichDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897AA3F11C8F12AF00365DFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		897AA3F31C8F12AF00365DFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		897AA3F41C8F12AF00365DFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		897AA3F61C8F12AF00365DFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		897AA3F71C8F12AF00365DFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		897AA3FA1C8F12AF00365DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		897AA3FC1C8F12AF00365DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		897AA3FF1C8F12AF00365DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		897AA4011C8F12AF00365DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897AA4061C8F12AF00365DFE /* SwichDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwichDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		897AA40A1C8F12AF00365DFE /* SwichDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwichDemoTests.m; sourceTree = "<group>"; };
+		897AA40C1C8F12AF00365DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897AA4111C8F12AF00365DFE /* SwichDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwichDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		897AA4151C8F12AF00365DFE /* SwichDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwichDemoUITests.m; sourceTree = "<group>"; };
+		897AA4171C8F12AF00365DFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E6A3051CA810E700393A56 /* popUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = popUp.xib; sourceTree = "<group>"; };
+		89E6A3071CA813CA00393A56 /* 02-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-02.png"; sourceTree = "<group>"; };
+		89E6A3081CA813CA00393A56 /* 02-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "02-03.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		897AA3EA1C8F12AF00365DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897AA4031C8F12AF00365DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897AA40E1C8F12AF00365DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		897AA3E41C8F12AF00365DFE = {
+			isa = PBXGroup;
+			children = (
+				897AA3EF1C8F12AF00365DFE /* SwichDemo */,
+				897AA4091C8F12AF00365DFE /* SwichDemoTests */,
+				897AA4141C8F12AF00365DFE /* SwichDemoUITests */,
+				897AA3EE1C8F12AF00365DFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		897AA3EE1C8F12AF00365DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				897AA3ED1C8F12AF00365DFE /* SwichDemo.app */,
+				897AA4061C8F12AF00365DFE /* SwichDemoTests.xctest */,
+				897AA4111C8F12AF00365DFE /* SwichDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		897AA3EF1C8F12AF00365DFE /* SwichDemo */ = {
+			isa = PBXGroup;
+			children = (
+				897AA3F31C8F12AF00365DFE /* AppDelegate.h */,
+				897AA3F41C8F12AF00365DFE /* AppDelegate.m */,
+				897AA3F61C8F12AF00365DFE /* ViewController.h */,
+				897AA3F71C8F12AF00365DFE /* ViewController.m */,
+				897AA3F91C8F12AF00365DFE /* Main.storyboard */,
+				89E6A3051CA810E700393A56 /* popUp.xib */,
+				897AA3FC1C8F12AF00365DFE /* Assets.xcassets */,
+				89E6A3071CA813CA00393A56 /* 02-02.png */,
+				89E6A3081CA813CA00393A56 /* 02-03.png */,
+				897AA3FE1C8F12AF00365DFE /* LaunchScreen.storyboard */,
+				897AA4011C8F12AF00365DFE /* Info.plist */,
+				897AA3F01C8F12AF00365DFE /* Supporting Files */,
+			);
+			path = SwichDemo;
+			sourceTree = "<group>";
+		};
+		897AA3F01C8F12AF00365DFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				897AA3F11C8F12AF00365DFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		897AA4091C8F12AF00365DFE /* SwichDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				897AA40A1C8F12AF00365DFE /* SwichDemoTests.m */,
+				897AA40C1C8F12AF00365DFE /* Info.plist */,
+			);
+			path = SwichDemoTests;
+			sourceTree = "<group>";
+		};
+		897AA4141C8F12AF00365DFE /* SwichDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				897AA4151C8F12AF00365DFE /* SwichDemoUITests.m */,
+				897AA4171C8F12AF00365DFE /* Info.plist */,
+			);
+			path = SwichDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		897AA3EC1C8F12AF00365DFE /* SwichDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897AA41A1C8F12AF00365DFE /* Build configuration list for PBXNativeTarget "SwichDemo" */;
+			buildPhases = (
+				897AA3E91C8F12AF00365DFE /* Sources */,
+				897AA3EA1C8F12AF00365DFE /* Frameworks */,
+				897AA3EB1C8F12AF00365DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwichDemo;
+			productName = SwichDemo;
+			productReference = 897AA3ED1C8F12AF00365DFE /* SwichDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		897AA4051C8F12AF00365DFE /* SwichDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897AA41D1C8F12AF00365DFE /* Build configuration list for PBXNativeTarget "SwichDemoTests" */;
+			buildPhases = (
+				897AA4021C8F12AF00365DFE /* Sources */,
+				897AA4031C8F12AF00365DFE /* Frameworks */,
+				897AA4041C8F12AF00365DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				897AA4081C8F12AF00365DFE /* PBXTargetDependency */,
+			);
+			name = SwichDemoTests;
+			productName = SwichDemoTests;
+			productReference = 897AA4061C8F12AF00365DFE /* SwichDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		897AA4101C8F12AF00365DFE /* SwichDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897AA4201C8F12AF00365DFE /* Build configuration list for PBXNativeTarget "SwichDemoUITests" */;
+			buildPhases = (
+				897AA40D1C8F12AF00365DFE /* Sources */,
+				897AA40E1C8F12AF00365DFE /* Frameworks */,
+				897AA40F1C8F12AF00365DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				897AA4131C8F12AF00365DFE /* PBXTargetDependency */,
+			);
+			name = SwichDemoUITests;
+			productName = SwichDemoUITests;
+			productReference = 897AA4111C8F12AF00365DFE /* SwichDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		897AA3E51C8F12AF00365DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "倪青山";
+				TargetAttributes = {
+					897AA3EC1C8F12AF00365DFE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					897AA4051C8F12AF00365DFE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 897AA3EC1C8F12AF00365DFE;
+					};
+					897AA4101C8F12AF00365DFE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 897AA3EC1C8F12AF00365DFE;
+					};
+				};
+			};
+			buildConfigurationList = 897AA3E81C8F12AF00365DFE /* Build configuration list for PBXProject "SwichDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 897AA3E41C8F12AF00365DFE;
+			productRefGroup = 897AA3EE1C8F12AF00365DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				897AA3EC1C8F12AF00365DFE /* SwichDemo */,
+				897AA4051C8F12AF00365DFE /* SwichDemoTests */,
+				897AA4101C8F12AF00365DFE /* SwichDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		897AA3EB1C8F12AF00365DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E6A30A1CA813CA00393A56 /* 02-03.png in Resources */,
+				89E6A3091CA813CA00393A56 /* 02-02.png in Resources */,
+				897AA4001C8F12AF00365DFE /* LaunchScreen.storyboard in Resources */,
+				897AA3FD1C8F12AF00365DFE /* Assets.xcassets in Resources */,
+				89E6A3061CA810E700393A56 /* popUp.xib in Resources */,
+				897AA3FB1C8F12AF00365DFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897AA4041C8F12AF00365DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897AA40F1C8F12AF00365DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		897AA3E91C8F12AF00365DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897AA3F81C8F12AF00365DFE /* ViewController.m in Sources */,
+				897AA3F51C8F12AF00365DFE /* AppDelegate.m in Sources */,
+				897AA3F21C8F12AF00365DFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897AA4021C8F12AF00365DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897AA40B1C8F12AF00365DFE /* SwichDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897AA40D1C8F12AF00365DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897AA4161C8F12AF00365DFE /* SwichDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		897AA4081C8F12AF00365DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 897AA3EC1C8F12AF00365DFE /* SwichDemo */;
+			targetProxy = 897AA4071C8F12AF00365DFE /* PBXContainerItemProxy */;
+		};
+		897AA4131C8F12AF00365DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 897AA3EC1C8F12AF00365DFE /* SwichDemo */;
+			targetProxy = 897AA4121C8F12AF00365DFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		897AA3F91C8F12AF00365DFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				897AA3FA1C8F12AF00365DFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		897AA3FE1C8F12AF00365DFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				897AA3FF1C8F12AF00365DFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		897AA4181C8F12AF00365DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		897AA4191C8F12AF00365DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		897AA41B1C8F12AF00365DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwichDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toolms.SwichDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		897AA41C1C8F12AF00365DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwichDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toolms.SwichDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		897AA41E1C8F12AF00365DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwichDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toolms.SwichDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwichDemo.app/SwichDemo";
+			};
+			name = Debug;
+		};
+		897AA41F1C8F12AF00365DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwichDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toolms.SwichDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwichDemo.app/SwichDemo";
+			};
+			name = Release;
+		};
+		897AA4211C8F12AF00365DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwichDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toolms.SwichDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwichDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		897AA4221C8F12AF00365DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwichDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toolms.SwichDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwichDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		897AA3E81C8F12AF00365DFE /* Build configuration list for PBXProject "SwichDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897AA4181C8F12AF00365DFE /* Debug */,
+				897AA4191C8F12AF00365DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897AA41A1C8F12AF00365DFE /* Build configuration list for PBXNativeTarget "SwichDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897AA41B1C8F12AF00365DFE /* Debug */,
+				897AA41C1C8F12AF00365DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897AA41D1C8F12AF00365DFE /* Build configuration list for PBXNativeTarget "SwichDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897AA41E1C8F12AF00365DFE /* Debug */,
+				897AA41F1C8F12AF00365DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897AA4201C8F12AF00365DFE /* Build configuration list for PBXNativeTarget "SwichDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897AA4211C8F12AF00365DFE /* Debug */,
+				897AA4221C8F12AF00365DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 897AA3E51C8F12AF00365DFE /* Project object */;
+}
